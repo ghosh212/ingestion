@@ -1,0 +1,6 @@
+{
+    "public_api_url": "https://jsonplaceholder.typicode.com/posts",
+    "gcp_project_id": " ",
+    "gcs_bucket_name": " ",
+    "service_account_path": " "  
+}
