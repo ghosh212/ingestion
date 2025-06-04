@@ -2,3 +2,13 @@ Docker:
 
 docker build -t ingestion:latest .
 docker run -p 8080:8080 ingestion:latest
+
+have the values populated in configs.json. configs.json is the config file which hold the env/config values
+a)the public api endpoint 
+b)gcp_project_id
+c)gcs_bucket_name
+d)service_account_path
+
+and run main.go.
+
+As I am fairly new to Golang, did not attempt using controllers.

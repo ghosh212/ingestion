@@ -8,6 +8,7 @@ import (
 	"tryout.com/ingestion/model"
 )
 
+// loads config from json value
 func LoadConfig() (*model.Config, error) {
 
 	configFile, err := os.ReadFile("configs.json")
